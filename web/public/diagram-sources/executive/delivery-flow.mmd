@@ -1,0 +1,28 @@
+flowchart TD
+  subgraph lane_L1[Business Discovery]
+  A["Business Problem / Opportunity"]
+  B["Discovery Workshop"]
+  C["People / Process / Technology"]
+  end
+
+  subgraph lane_L2[Assessment]
+  D["Use Case Intake"]
+  E["Classification"]
+  F["Data Classification"]
+  G["Automation / AI / Hybrid Decision"]
+  end
+
+  subgraph lane_L3[Design & Build]
+  H["Solution Design"]
+  I["Prompt / Model / Integration"]
+  J["Build & Release"]
+  end
+
+  subgraph lane_L4[Operate & Control]
+  K["Monitoring & Reporting"]
+  L["Governance & Risk"]
+  M["Production Use"]
+  end
+
+  A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L --> M
+  M --> D

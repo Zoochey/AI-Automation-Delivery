@@ -1,0 +1,86 @@
+flowchart TD
+  subgraph lane_L1[ERP]
+  A["Invoice Document gets Created"]
+  B["ERP QOH is updated"]
+  C["BackOrder Flag = N?"]
+  D["Sales Order document created in ERP"]
+  E["EDI Orders"]
+  F["Manually keyed in Orders"]
+  G["Order Status = A"]
+  H["Order Status = P"]
+  end
+  subgraph lane_L2[TBO4 Pick Pack Manager]
+  I["User open Pick Pack Manager"]
+  J["Document Type selected = Sales Order and date filters applied"]
+  K["User selects the order or orders to Release"]
+  L["If Consolidate orders into 1 PickID?"]
+  M["Multiple Orders released with 1 PickID"]
+  N["Single Order released with 1 PickID"]
+  O["User clicks the PickID"]
+  end
+  subgraph lane_L3[TBO4 Picking]
+  P["Picked Orders go to Picking in TBO4"]
+  Q["Start picking the items scanning and manual entry supported"]
+  R["Generate SSCC"]
+  S["If next SSCC required?"]
+  T["Print SSCC labels"]
+  U["If BIGW orders?"]
+  V["BIGW EDI Compliant SSCC labels are printed"]
+  W["Generic SSCC labels printed"]
+  X["Complete Pick Process"]
+  end
+  subgraph lane_L4[TBO4 Packing]
+  Y["Picking report printed with PickID details"]
+  Z["Scan QR code or manually check orders to pack"]
+  AA["Scan SSCC labels"]
+  AB["Pack ID generated"]
+  AC["Items with qtys in SSCC are populated"]
+  AD["If next SSCC scan required?"]
+  AE["Packing Complete"]
+  end
+  subgraph lane_L5[Integrated Freight]
+  AF["Navigate to Freight Print Label screen"]
+  AG["User chooses Integrated Freight Carrier"]
+  AH["Dimensions entered or prepopulated for the SSCC"]
+  AI["Freight labels printed and Connote generated"]
+  end
+  A --> B
+  B --> C
+  C --> D
+  C --> B
+  D --> E
+  D --> F
+  D --> G
+  D --> H
+  G --> I
+  H --> I
+  I --> J
+  J --> K
+  K --> L
+  L --> M
+  L --> N
+  M --> O
+  N --> O
+  O --> P
+  P --> Q
+  Q --> R
+  R --> S
+  S --> R
+  S --> T
+  T --> U
+  U --> V
+  U --> W
+  V --> X
+  W --> X
+  X --> Y
+  Y --> Z
+  Z --> AA
+  AA --> AB
+  AB --> AC
+  AC --> AD
+  AD --> AA
+  AD --> AE
+  AF --> AG
+  AG --> AH
+  AH --> AI
+  AI --> AE

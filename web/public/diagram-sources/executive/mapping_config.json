@@ -1,0 +1,338 @@
+{
+  "module": "CRONUS Australia Pty_ Ltd_$Vendor$437dbf0e-84ff-417a-965d-ed2bb9650972",
+  "source": {
+    "server": "CRAIGS-LAPTOP\\SQL2025ZOOCHEY",
+    "database": "BC270",
+    "table": "CRONUS Australia Pty_ Ltd_$Vendor$437dbf0e-84ff-417a-965d-ed2bb9650972"
+  },
+  "target": {
+    "server": "192.168.0.21",
+    "database": "SBODemoUS",
+    "table": "OCRD"
+  },
+  "generated": "2026-04-07T01:06:05.893Z",
+  "mappings": [
+    {
+      "source_field": "Name",
+      "target_field": "CardName",
+      "confidence": 100,
+      "transform": null,
+      "reason": "Direct mapping of vendor name to business partner name"
+    },
+    {
+      "source_field": "Address",
+      "target_field": "Address",
+      "confidence": 100,
+      "transform": null,
+      "reason": "Direct mapping of primary address"
+    },
+    {
+      "source_field": "City",
+      "target_field": "City",
+      "confidence": 100,
+      "transform": null,
+      "reason": "Direct mapping of city"
+    },
+    {
+      "source_field": "E-Mail",
+      "target_field": "E_Mail",
+      "confidence": 100,
+      "transform": null,
+      "reason": "Direct email mapping"
+    },
+    {
+      "source_field": "VAT Registration No_",
+      "target_field": "VATRegNum",
+      "confidence": 100,
+      "transform": null,
+      "reason": "VAT registration number direct mapping"
+    },
+    {
+      "source_field": "Priority",
+      "target_field": "Priority",
+      "confidence": 100,
+      "transform": null,
+      "reason": "Direct priority mapping"
+    },
+    {
+      "source_field": "No_",
+      "target_field": "CardCode",
+      "confidence": 95,
+      "transform": "Truncate to 7 chars if longer",
+      "reason": "Primary vendor identifier maps to business partner code"
+    },
+    {
+      "source_field": "Contact",
+      "target_field": "CntctPrsn",
+      "confidence": 95,
+      "transform": null,
+      "reason": "Contact person mapping"
+    },
+    {
+      "source_field": "Mobile Phone No_",
+      "target_field": "Cellular",
+      "confidence": 95,
+      "transform": null,
+      "reason": "Mobile phone maps to cellular"
+    },
+    {
+      "source_field": "Home Page",
+      "target_field": "IntrntSite",
+      "confidence": 95,
+      "transform": null,
+      "reason": "Website/homepage mapping"
+    },
+    {
+      "source_field": "ABN",
+      "target_field": "LicTradNum",
+      "confidence": 95,
+      "transform": null,
+      "reason": "Australian Business Number maps to license/trade number"
+    },
+    {
+      "source_field": "Registration Number",
+      "target_field": "RegNum",
+      "confidence": 95,
+      "transform": null,
+      "reason": "Registration number direct mapping"
+    },
+    {
+      "source_field": "GLN",
+      "target_field": "GlblLocNum",
+      "confidence": 95,
+      "transform": null,
+      "reason": "Global Location Number direct mapping"
+    },
+    {
+      "source_field": "Country_Region Code",
+      "target_field": "Country",
+      "confidence": 90,
+      "transform": "Map to B1 country code",
+      "reason": "Country region code maps to country"
+    },
+    {
+      "source_field": "Phone No_",
+      "target_field": "Phone1",
+      "confidence": 90,
+      "transform": "Truncate to 10 chars",
+      "reason": "Primary phone number"
+    },
+    {
+      "source_field": "Fax No_",
+      "target_field": "Fax",
+      "confidence": 90,
+      "transform": "Truncate to 10 chars",
+      "reason": "Fax number mapping"
+    },
+    {
+      "source_field": "Blocked",
+      "target_field": "frozenFor",
+      "confidence": 90,
+      "transform": "0→N, 1→Y",
+      "reason": "Blocked status maps to frozen status"
+    },
+    {
+      "source_field": "$systemCreatedAt",
+      "target_field": "CreateDate",
+      "confidence": 90,
+      "transform": "Cast datetime to date",
+      "reason": "System creation timestamp to create date"
+    },
+    {
+      "source_field": "$systemModifiedAt",
+      "target_field": "UpdateDate",
+      "confidence": 90,
+      "transform": "Cast datetime to date",
+      "reason": "System modified timestamp to update date"
+    },
+    {
+      "source_field": "Post Code",
+      "target_field": "ZipCode",
+      "confidence": 85,
+      "transform": "Extract postcode from 'AU-VIC 3000' format",
+      "reason": "Extract postal code portion from combined state+postcode"
+    },
+    {
+      "source_field": "Post Code",
+      "target_field": "County",
+      "confidence": 85,
+      "transform": "Extract state from 'AU-VIC 3000' format",
+      "reason": "Extract state portion as B1 County field stores state"
+    },
+    {
+      "source_field": "Currency Code",
+      "target_field": "Currency",
+      "confidence": 85,
+      "transform": "Map to B1 currency format",
+      "reason": "Currency code mapping"
+    },
+    {
+      "source_field": "Privacy Blocked",
+      "target_field": "validFor",
+      "confidence": 85,
+      "transform": "Invert: 0→Y, 1→N",
+      "reason": "Privacy blocked inverts to valid for"
+    },
+    {
+      "source_field": "Territory Code",
+      "target_field": "Territory",
+      "confidence": 85,
+      "transform": "Convert to numeric territory ID",
+      "reason": "Territory code maps to territory"
+    },
+    {
+      "source_field": "Search Name",
+      "target_field": "AliasName",
+      "confidence": 85,
+      "transform": null,
+      "reason": "Search name maps to alias name"
+    },
+    {
+      "source_field": "County",
+      "target_field": "MailCounty",
+      "confidence": 85,
+      "transform": null,
+      "reason": "County maps to mail county as secondary address"
+    },
+    {
+      "source_field": "Payment Terms Code",
+      "target_field": "GroupNum",
+      "confidence": 80,
+      "transform": "Map CM→30d terms, lookup OCTG",
+      "reason": "Payment terms code maps to payment terms group"
+    },
+    {
+      "source_field": "VAT Bus_ Posting Group",
+      "target_field": "VatStatus",
+      "confidence": 80,
+      "transform": "DOMESTIC→Y, EXPORT→N, FOREIGN→E",
+      "reason": "VAT business posting group maps to VAT status"
+    },
+    {
+      "source_field": "Language Code",
+      "target_field": "LangCode",
+      "confidence": 80,
+      "transform": "Map to numeric language code",
+      "reason": "Language code mapping"
+    },
+    {
+      "source_field": "Name 2",
+      "target_field": "CardFName",
+      "confidence": 80,
+      "transform": null,
+      "reason": "Second name line maps to full name"
+    },
+    {
+      "source_field": "EORI Number",
+      "target_field": "ExportCode",
+      "confidence": 80,
+      "transform": null,
+      "reason": "EORI number maps to export code"
+    },
+    {
+      "source_field": "Foreign Vend",
+      "target_field": "IsDomestic",
+      "confidence": 80,
+      "transform": "Invert: 0→Y, 1→N",
+      "reason": "Foreign vendor inverts to is domestic"
+    },
+    {
+      "source_field": "Tax Liable",
+      "target_field": "WTLiable",
+      "confidence": 75,
+      "transform": "0→N, 1→Y",
+      "reason": "Tax liable mapping to withholding tax liable"
+    },
+    {
+      "source_field": "IRD No_",
+      "target_field": "NINum",
+      "confidence": 75,
+      "transform": null,
+      "reason": "IRD number maps to NI number"
+    },
+    {
+      "source_field": "ID No_",
+      "target_field": "OwnerIdNum",
+      "confidence": 75,
+      "transform": null,
+      "reason": "ID number maps to owner ID number"
+    },
+    {
+      "source_field": "Address 2",
+      "target_field": "StreetNo",
+      "confidence": 70,
+      "transform": null,
+      "reason": "Secondary address line maps to street number field"
+    },
+    {
+      "source_field": "Purchaser Code",
+      "target_field": "SlpCode",
+      "confidence": 70,
+      "transform": "Map to sales person code",
+      "reason": "Purchaser code maps to sales person"
+    },
+    {
+      "source_field": "Statistics Group",
+      "target_field": "GroupCode",
+      "confidence": 70,
+      "transform": null,
+      "reason": "Statistics group maps to group code"
+    },
+    {
+      "source_field": "Our Account No_",
+      "target_field": "AddID",
+      "confidence": 65,
+      "transform": null,
+      "reason": "Account number maps to additional ID"
+    },
+    {
+      "source_field": "Registered",
+      "target_field": "IsResident",
+      "confidence": 65,
+      "transform": "0→N, 1→Y",
+      "reason": "Registered status maps to resident status"
+    },
+    {
+      "source_field": "Creditor No_",
+      "target_field": "ExemptNo",
+      "confidence": 60,
+      "transform": null,
+      "reason": "Creditor number may map to exempt number"
+    },
+    {
+      "source_field": "Responsibility Center",
+      "target_field": "PlngGroup",
+      "confidence": 60,
+      "transform": null,
+      "reason": "Responsibility center maps to planning group"
+    },
+    {
+      "source_field": "Prices Including VAT",
+      "target_field": "DeferrTax",
+      "confidence": 50,
+      "transform": "Map VAT inclusion logic",
+      "reason": "VAT pricing may relate to deferred tax"
+    },
+    {
+      "source_field": "EFT Payment",
+      "target_field": "DataSource",
+      "confidence": 45,
+      "transform": "Set to 'I' for import",
+      "reason": "EFT payment indicates electronic data source"
+    },
+    {
+      "source_field": "Telex No_",
+      "target_field": "Pager",
+      "confidence": 40,
+      "transform": null,
+      "reason": "Legacy telex could map to pager field"
+    },
+    {
+      "source_field": "Lead Time Calculation",
+      "target_field": "Notes",
+      "confidence": 40,
+      "transform": "Convert to text",
+      "reason": "Lead time info could go to notes"
+    }
+  ]
+}

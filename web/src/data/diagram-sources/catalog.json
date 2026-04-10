@@ -16,6 +16,11 @@
         "id": "598d3503-f4db-4598-8005-f3f9627c7171",
         "title": "my-diagram",
         "path": "/diagram-sources/executive/my-diagram.json"
+      },
+      {
+        "id": "9847229a-e350-4ddf-9640-522b4aad5c8f",
+        "title": "mapping_config",
+        "path": "/diagram-sources/executive/mapping_config.json"
       }
     ],
     "finance": [],
@@ -28,7 +33,18 @@
     "retail-delivery": []
   },
   "mermaid": {
-    "executive": [],
+    "executive": [
+      {
+        "id": "5e7ed451-dff0-46de-8863-ef5e33106807",
+        "title": "delivery-flow",
+        "path": "/diagram-sources/executive/delivery-flow.mmd"
+      },
+      {
+        "id": "b8af21e9-f1b4-4945-a269-36b154be6597",
+        "title": "BataShoesnew",
+        "path": "/diagram-sources/executive/BataShoesnew.mmd"
+      }
+    ],
     "finance": [
       {
         "id": "4f6f21a7-09e2-4af9-96b5-335f07d7bf82",

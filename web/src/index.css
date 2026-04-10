@@ -14,8 +14,8 @@
   --lane-c: #8764b8;
   --lane-d: #c239b3;
   /* KPI metric series (align with future Power BI series colors) */
-  --kpi-pdf: #b45309;
-  --kpi-pdf-soft: rgba(180, 83, 9, 0.12);
+  --kpi-pdf: #ca8a04;
+  --kpi-pdf-soft: rgba(202, 138, 4, 0.14);
   --kpi-json: #0e7490;
   --kpi-json-soft: rgba(14, 116, 144, 0.12);
   --kpi-mermaid: #6d28d9;
@@ -50,8 +50,8 @@
   --lane-b: #65d88d;
   --lane-c: #c0a3ff;
   --lane-d: #ff8fd5;
-  --kpi-pdf: #fb923c;
-  --kpi-pdf-soft: rgba(251, 146, 60, 0.18);
+  --kpi-pdf: #fbbf24;
+  --kpi-pdf-soft: rgba(251, 191, 36, 0.2);
   --kpi-json: #22d3ee;
   --kpi-json-soft: rgba(34, 211, 238, 0.14);
   --kpi-mermaid: #c4b5fd;
@@ -1418,7 +1418,11 @@ table.simple tr:last-child td {
 }
 .kpi-totals-list li.kpi-totals--pdf .kpi-totals-list__value {
   color: var(--kpi-pdf);
-  box-shadow: 0 0 0 1px rgba(180, 83, 9, 0.2) inset;
+  box-shadow: 0 0 0 1px rgba(202, 138, 4, 0.28) inset;
+}
+
+:root[data-theme='dark'] .kpi-totals-list li.kpi-totals--pdf .kpi-totals-list__value {
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.38) inset;
 }
 .kpi-totals-list li.kpi-totals--pdf .kpi-totals-list__label {
   color: var(--kpi-pdf);
