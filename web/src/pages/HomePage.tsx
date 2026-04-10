@@ -106,6 +106,13 @@ export function HomePage() {
                 and dev save as JSON sources.
               </p>
             </Link>
+            <Link className="card card--interactive" to="/kpi">
+              <h4>KPI snapshot</h4>
+              <p>
+                Core standards count and per-team totals for PDFs, JSON, Mermaid,
+                and diagram library entries.
+              </p>
+            </Link>
           </div>
         </section>
       </div>

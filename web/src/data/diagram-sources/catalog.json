@@ -11,6 +11,11 @@
         "id": "a1239728-3b12-4638-b49c-c88051a67b29",
         "title": "unity_orggraph_master",
         "path": "/diagram-sources/executive/unity_orggraph_master.json"
+      },
+      {
+        "id": "598d3503-f4db-4598-8005-f3f9627c7171",
+        "title": "my-diagram",
+        "path": "/diagram-sources/executive/my-diagram.json"
       }
     ],
     "finance": [],

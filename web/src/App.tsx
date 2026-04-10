@@ -13,12 +13,14 @@ import { BusinessProcessFlowsPage } from './pages/BusinessProcessFlowsPage.tsx'
 import { OrganizationalOwnershipPage } from './pages/OrganizationalOwnershipPage.tsx'
 import { DiagramPortalPage } from './pages/DiagramPortalPage.tsx'
 import { JsonToDiagramPage } from './pages/JsonToDiagramPage.tsx'
+import { TeamKpiPage } from './pages/TeamKpiPage.tsx'
 
 export function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
+        <Route path="kpi" element={<TeamKpiPage />} />
         <Route path="operating-model" element={<OperatingModelPage />} />
         <Route path="standards/data" element={<DataStandardPage />} />
         <Route path="standards/use-case" element={<UseCaseStandardPage />} />

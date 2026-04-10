@@ -48,6 +48,11 @@ export function Layout() {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/kpi" className={navLinkClass}>
+                KPI snapshot
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/operating-model" className={navLinkClass}>
                 Operating model
               </NavLink>

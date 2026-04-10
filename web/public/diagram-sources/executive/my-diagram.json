@@ -1,0 +1,20 @@
+{
+  "GeneralProfile": {
+    "entityggggggggggg": {
+     
+      "location": {
+        "facility": "Building A",
+        "wing": "North",
+        "lab_id": "LAB-1042"
+      }
+    },
+    "managementtttt": {
+      "lead": "Alex Morgan",
+      "reports_to": "Director of Engineering"
+    },
+    "facilities": {
+      "environment": "Controlled",
+      "power": "Redundant UPS"
+    }
+  }
+}
