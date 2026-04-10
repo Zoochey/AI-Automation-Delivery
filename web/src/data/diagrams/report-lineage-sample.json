@@ -1,0 +1,27 @@
+{
+  "id": "report-lineage-pnl-sample",
+  "title": "P&L report lineage (sample)",
+  "type": "report-lineage",
+  "description": "Example lineage from sources to published pack — same layout engine as process flow.",
+  "layout": {
+    "orientation": "LeftToRight",
+    "horizontalSpacing": 40,
+    "verticalSpacing": 36
+  },
+  "nodes": [
+    { "id": "erp", "label": "ERP GL", "category": "source" },
+    { "id": "adj", "label": "Adjustments", "category": "source" },
+    { "id": "consol", "label": "Consolidation", "category": "transform" },
+    { "id": "model", "label": "Analytic model", "category": "transform" },
+    { "id": "pbi", "label": "Power BI semantic model", "category": "publish" },
+    { "id": "pack", "label": "Executive P&L pack", "category": "publish" }
+  ],
+  "edges": [
+    { "id": "e1", "source": "erp", "target": "consol" },
+    { "id": "e2", "source": "adj", "target": "consol" },
+    { "id": "e3", "source": "consol", "target": "model" },
+    { "id": "e4", "source": "model", "target": "pbi" },
+    { "id": "e5", "source": "pbi", "target": "pack" }
+  ],
+  "metadata": { "sample": true }
+}

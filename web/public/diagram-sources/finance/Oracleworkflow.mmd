@@ -1,0 +1,37 @@
+flowchart TD
+  subgraph lane_L1[Procurement]
+  A["Create Requisition"]
+  B["Approval Required?"]
+  C["Approve Requisition"]
+  D["Create Purchase Order"]
+  E["Dispatch PO to Supplier"]
+  end
+  subgraph lane_L2[Receiving]
+  F["Receive Goods"]
+  G["Record Goods Receipt"]
+  end
+  subgraph lane_L3[Accounts Payable]
+  H["Supplier Invoice Received"]
+  I["3-Way Match Valid?"]
+  J["Validate Invoice"]
+  K["Post Invoice"]
+  end
+  subgraph lane_L4[Finance]
+  L["Schedule Payment"]
+  M["Execute Payment"]
+  N["Post to General Ledger"]
+  end
+  A --> B
+  B --> C
+  B --> D
+  C --> D
+  D --> E
+  E --> F
+  F --> G
+  G --> H
+  H --> I
+  I --> J
+  J --> K
+  K --> L
+  L --> M
+  M --> N

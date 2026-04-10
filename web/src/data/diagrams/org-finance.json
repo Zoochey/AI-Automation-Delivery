@@ -1,0 +1,42 @@
+{
+  "id": "org-finance-sample",
+  "title": "Finance reporting line (sample)",
+  "type": "org-chart",
+  "description": "Illustrative hierarchy for finance-aligned reporting packs.",
+  "layout": {
+    "orientation": "TopToBottom",
+    "horizontalSpacing": 28,
+    "verticalSpacing": 44
+  },
+  "nodes": [
+    {
+      "id": "CEO",
+      "label": "Chief Executive Officer",
+      "category": "Executive",
+      "description": "Executive"
+    },
+    {
+      "id": "CFO",
+      "label": "Chief Financial Officer",
+      "category": "Finance",
+      "description": "Finance",
+      "parentId": "CEO"
+    },
+    {
+      "id": "FIN-CTRL",
+      "label": "Financial Control Lead",
+      "category": "Finance",
+      "description": "Controllership",
+      "parentId": "CFO"
+    },
+    {
+      "id": "FIN-BP",
+      "label": "FP&A Lead",
+      "category": "Finance",
+      "description": "Planning",
+      "parentId": "CFO"
+    }
+  ],
+  "edges": [],
+  "metadata": { "sample": true }
+}

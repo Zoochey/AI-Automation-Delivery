@@ -57,6 +57,29 @@ export function Layout() {
                 Business process flows
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/organizational-ownership"
+                className={navLinkClass}
+              >
+                Org ownership (Syncfusion)
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/portal/diagrams" className={navLinkClass}>
+                Diagram repository
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/portal/json-diagram" className={navLinkClass}>
+                JSON → diagram
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/portal/mermaid-diagram" className={navLinkClass}>
+                Mermaid diagram
+              </NavLink>
+            </li>
           </ul>
           <div className="nav-section">
             <div className="nav-section__label">Core standards</div>
@@ -89,16 +112,6 @@ export function Layout() {
               <li>
                 <NavLink to="/standards/definitions" className={navLinkClass}>
                   6. Definitions &amp; document control
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-          <div className="nav-section">
-            <div className="nav-section__label">Appendix</div>
-            <ul className="nav-list">
-              <li>
-                <NavLink to="/appendix/visual-flow" className={navLinkClass}>
-                  Visual delivery flow
                 </NavLink>
               </li>
             </ul>

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "json": {
+    "executive": [
+      {
+        "id": "b27a1e90-9b43-41f6-b8f9-e0baab094f5f",
+        "title": "inventory_profile",
+        "path": "/diagram-sources/executive/inventory_profile.json"
+      },
+      {
+        "id": "a1239728-3b12-4638-b49c-c88051a67b29",
+        "title": "unity_orggraph_master",
+        "path": "/diagram-sources/executive/unity_orggraph_master.json"
+      }
+    ],
+    "finance": [],
+    "internal-it-systems": [],
+    "product-technology": [],
+    "network-delivery-construction": [],
+    "customer-operations": [],
+    "governance-risk": [],
+    "hr-workforce": [],
+    "retail-delivery": []
+  },
+  "mermaid": {
+    "executive": [],
+    "finance": [
+      {
+        "id": "4f6f21a7-09e2-4af9-96b5-335f07d7bf82",
+        "title": "Oracleworkflow",
+        "path": "/diagram-sources/finance/Oracleworkflow.mmd"
+      }
+    ],
+    "internal-it-systems": [],
+    "product-technology": [],
+    "network-delivery-construction": [],
+    "customer-operations": [],
+    "governance-risk": [
+      {
+        "id": "9d6f1cd5-6b46-4793-bf2f-ad8125aa3a34",
+        "title": "Oracleworkflow",
+        "path": "/diagram-sources/governance-risk/Oracleworkflow.mmd"
+      }
+    ],
+    "hr-workforce": [],
+    "retail-delivery": []
+  }
+}

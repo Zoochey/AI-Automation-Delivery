@@ -1,0 +1,44 @@
+{
+  "id": "standards-controls-sample",
+  "title": "Control coverage map (sample)",
+  "type": "process-map",
+  "description": "Link standards to control themes for governance conversations.",
+  "layout": {
+    "orientation": "TopToBottom",
+    "horizontalSpacing": 40,
+    "verticalSpacing": 32
+  },
+  "nodes": [
+    {
+      "id": "std-data",
+      "label": "AI Data Standard",
+      "category": "standard",
+      "description": "Classification & usage"
+    },
+    {
+      "id": "std-gov",
+      "label": "Governance & Risk",
+      "category": "standard",
+      "description": "Controls & approvals"
+    },
+    {
+      "id": "ctrl-1",
+      "label": "Data handling control",
+      "category": "control",
+      "description": "Maps to Data Standard",
+      "metadata": { "theme": "confidentiality" }
+    },
+    {
+      "id": "ctrl-2",
+      "label": "Risk review",
+      "category": "control",
+      "description": "Maps to Governance",
+      "metadata": { "theme": "oversight" }
+    }
+  ],
+  "edges": [
+    { "id": "c1", "source": "std-data", "target": "ctrl-1" },
+    { "id": "c2", "source": "std-gov", "target": "ctrl-2" }
+  ],
+  "metadata": { "sample": true }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "delivery-framework",
+  "title": "AI & automation delivery flow",
+  "type": "flowchart",
+  "description": "Appendix A journey with feedback from production to use case intake.",
+  "layout": {
+    "orientation": "TopToBottom",
+    "horizontalSpacing": 50,
+    "verticalSpacing": 40
+  },
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Business Problem / Opportunity",
+      "category": "discovery"
+    },
+    {
+      "id": "B",
+      "label": "Discovery Workshop",
+      "category": "discovery"
+    },
+    {
+      "id": "C",
+      "label": "People / Process / Technology",
+      "category": "discovery"
+    },
+    {
+      "id": "D",
+      "label": "Use Case Intake",
+      "category": "assessment"
+    },
+    {
+      "id": "E",
+      "label": "Classification",
+      "category": "assessment"
+    },
+    {
+      "id": "F",
+      "label": "Data Classification",
+      "category": "assessment"
+    },
+    {
+      "id": "G",
+      "label": "Automation / AI / Hybrid Decision",
+      "category": "assessment"
+    },
+    {
+      "id": "H",
+      "label": "Solution Design",
+      "category": "design"
+    },
+    {
+      "id": "I",
+      "label": "Prompt / Model / Integration",
+      "category": "design"
+    },
+    {
+      "id": "J",
+      "label": "Build & Release",
+      "category": "design"
+    },
+    {
+      "id": "K",
+      "label": "Monitoring & Reporting",
+      "category": "operate"
+    },
+    {
+      "id": "L",
+      "label": "Governance & Risk",
+      "category": "operate"
+    },
+    {
+      "id": "M",
+      "label": "Production Use",
+      "category": "operate",
+      "styleHint": { "flowShape": "Terminator" }
+    }
+  ],
+  "edges": [
+    { "id": "ab", "source": "A", "target": "B" },
+    { "id": "bc", "source": "B", "target": "C" },
+    { "id": "cd", "source": "C", "target": "D" },
+    { "id": "de", "source": "D", "target": "E" },
+    { "id": "ef", "source": "E", "target": "F" },
+    { "id": "fg", "source": "F", "target": "G" },
+    { "id": "gh", "source": "G", "target": "H" },
+    { "id": "hi", "source": "H", "target": "I" },
+    { "id": "ij", "source": "I", "target": "J" },
+    { "id": "jk", "source": "J", "target": "K" },
+    { "id": "kl", "source": "K", "target": "L" },
+    { "id": "lm", "source": "L", "target": "M" },
+    {
+      "id": "md",
+      "source": "M",
+      "target": "D",
+      "label": "Feedback loop"
+    }
+  ],
+  "metadata": { "standardRef": "Appendix A" }
+}

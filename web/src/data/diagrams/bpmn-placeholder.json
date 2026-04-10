@@ -1,0 +1,35 @@
+{
+  "id": "bpmn-roadmap-placeholder",
+  "title": "BPMN viewer (roadmap)",
+  "type": "flowchart",
+  "description": "Placeholder diagram until BPMN JSON mapping is added. Extend diagramMapper with BpmnDiagrams inject.",
+  "layout": {
+    "orientation": "LeftToRight",
+    "horizontalSpacing": 36,
+    "verticalSpacing": 28
+  },
+  "nodes": [
+    {
+      "id": "start",
+      "label": "Start",
+      "category": "event",
+      "styleHint": { "flowShape": "Terminator" }
+    },
+    {
+      "id": "task",
+      "label": "Business task",
+      "category": "activity"
+    },
+    {
+      "id": "end",
+      "label": "End",
+      "category": "event",
+      "styleHint": { "flowShape": "Terminator" }
+    }
+  ],
+  "edges": [
+    { "id": "e1", "source": "start", "target": "task" },
+    { "id": "e2", "source": "task", "target": "end" }
+  ],
+  "metadata": { "roadmap": "bpmn" }
+}

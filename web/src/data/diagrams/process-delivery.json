@@ -1,0 +1,43 @@
+{
+  "id": "process-delivery-handoff",
+  "title": "Delivery handoff checkpoints",
+  "type": "process-map",
+  "description": "Lightweight checkpoint map for design → build → operate handoffs.",
+  "layout": {
+    "orientation": "TopToBottom",
+    "horizontalSpacing": 44,
+    "verticalSpacing": 36
+  },
+  "nodes": [
+    {
+      "id": "intake",
+      "label": "Intake approved",
+      "category": "gate",
+      "description": "Use case accepted for design"
+    },
+    {
+      "id": "design-signoff",
+      "label": "Design sign-off",
+      "category": "gate",
+      "description": "Architecture & data agreed"
+    },
+    {
+      "id": "release",
+      "label": "Release to production",
+      "category": "gate",
+      "description": "Change record complete"
+    },
+    {
+      "id": "monitor",
+      "label": "Monitoring active",
+      "category": "gate",
+      "styleHint": { "flowShape": "Terminator" }
+    }
+  ],
+  "edges": [
+    { "id": "e1", "source": "intake", "target": "design-signoff" },
+    { "id": "e2", "source": "design-signoff", "target": "release" },
+    { "id": "e3", "source": "release", "target": "monitor" }
+  ],
+  "metadata": { "sample": true }
+}

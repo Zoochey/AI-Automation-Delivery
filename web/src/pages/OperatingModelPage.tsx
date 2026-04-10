@@ -46,8 +46,8 @@ export function OperatingModelPage() {
         <h2>Visual flow</h2>
         <p>
           Appendix A maps the same journey as a lane-based flowchart. Open the{' '}
-          <Link to="/appendix/visual-flow">visual delivery flow</Link> page to
-          explore it interactively (Mermaid).
+          <Link to="/portal/mermaid-diagram">Mermaid diagram</Link> page to edit
+          and explore it interactively.
         </p>
       </section>
     </>

@@ -1,0 +1,140 @@
+{
+  "file_name": "Inventory mappling list.xlsx",
+  "file_path": "C:\\Users\\admin\\Downloads\\Inventory mappling list.xlsx",
+  "file_extension": ".xlsx",
+  "sheets": [
+    {
+      "name": "stock category",
+      "state": "visible",
+      "max_row": 36218,
+      "max_column": 12,
+      "used_range": "A1:L36218",
+      "formula_count": 181085,
+      "cross_sheet_formula_count": 0,
+      "external_reference_count": 0,
+      "volatile_formula_count": 0,
+      "common_functions": {
+        "VLOOKUP": 108651,
+        "SUM": 36217
+      },
+      "sample_formulas": [
+        {
+          "cell": "H2",
+          "formula": "=VLOOKUP(A2,rr,3,FALSE)"
+        },
+        {
+          "cell": "I2",
+          "formula": "=VLOOKUP(A2,rr,2,FALSE)"
+        },
+        {
+          "cell": "J2",
+          "formula": "=VLOOKUP(H2,ee,2,FALSE)"
+        },
+        {
+          "cell": "K2",
+          "formula": "=A2+I2+5"
+        },
+        {
+          "cell": "L2",
+          "formula": "=SUM(I2:J2)"
+        },
+        {
+          "cell": "H3",
+          "formula": "=VLOOKUP(A3,rr,3,FALSE)"
+        },
+        {
+          "cell": "I3",
+          "formula": "=VLOOKUP(A3,rr,2,FALSE)"
+        },
+        {
+          "cell": "J3",
+          "formula": "=VLOOKUP(H3,ee,2,FALSE)"
+        }
+      ],
+      "likely_role": "unknown"
+    },
+    {
+      "name": "Pivot sales",
+      "state": "visible",
+      "max_row": 11,
+      "max_column": 2,
+      "used_range": "A1:B11",
+      "formula_count": 0,
+      "cross_sheet_formula_count": 0,
+      "external_reference_count": 0,
+      "volatile_formula_count": 0,
+      "common_functions": {},
+      "sample_formulas": [],
+      "likely_role": "unknown"
+    },
+    {
+      "name": "CRONUS Australia Pty_ Ltd_$Sale",
+      "state": "visible",
+      "max_row": 68,
+      "max_column": 183,
+      "used_range": "A1:GA68",
+      "formula_count": 0,
+      "cross_sheet_formula_count": 0,
+      "external_reference_count": 0,
+      "volatile_formula_count": 0,
+      "common_functions": {},
+      "sample_formulas": [],
+      "likely_role": "unknown"
+    },
+    {
+      "name": "Main Mapping to stock codes",
+      "state": "visible",
+      "max_row": 1859,
+      "max_column": 5,
+      "used_range": "A1:E1859",
+      "formula_count": 0,
+      "cross_sheet_formula_count": 0,
+      "external_reference_count": 0,
+      "volatile_formula_count": 0,
+      "common_functions": {},
+      "sample_formulas": [],
+      "likely_role": "calculation"
+    },
+    {
+      "name": "Sheet1",
+      "state": "visible",
+      "max_row": 1001,
+      "max_column": 3,
+      "used_range": "A1:C1001",
+      "formula_count": 0,
+      "cross_sheet_formula_count": 0,
+      "external_reference_count": 0,
+      "volatile_formula_count": 0,
+      "common_functions": {},
+      "sample_formulas": [],
+      "likely_role": "unknown"
+    }
+  ],
+  "hidden_sheets": [],
+  "defined_names": [
+    "ee",
+    "ft",
+    "rr",
+    "tt"
+  ],
+  "formula_function_counts": {
+    "VLOOKUP": 108651,
+    "SUM": 36217
+  },
+  "volatile_functions_found": {},
+  "external_links_detected": [],
+  "macros_present": false,
+  "pivot_tables_detected": true,
+  "power_query_detected": true,
+  "power_pivot_detected": false,
+  "workbook_links_detected": false,
+  "total_formulas": 181085,
+  "complexity_score": 44,
+  "complexity_band": "moderate",
+  "risk_flags": [
+    "Power Query detected.",
+    "PivotTables detected.",
+    "High formula volume detected (>2000 formulas)."
+  ],
+  "plain_english_summary": "Workbook 'Inventory mappling list.xlsx' is assessed as moderate complexity (score: 44/100). It contains 5 sheets and 181085 formulas in total. The dominant detected sheet role is 'unknown'. Most common functions: VLOOKUP (108651), SUM (36217). Key risk flags: Power Query detected. PivotTables detected. High formula volume detected (>2000 formulas)."
+}

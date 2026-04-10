@@ -1,0 +1,42 @@
+{
+  "id": "data-tree-sample",
+  "title": "Data object tree (sample)",
+  "type": "tree-view",
+  "description": "Hierarchical tree layout for structures, taxonomies, or nested standards.",
+  "layout": {
+    "orientation": "TopToBottom",
+    "horizontalSpacing": 24,
+    "verticalSpacing": 36
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Data domain",
+      "category": "root",
+      "description": "Top-level grouping"
+    },
+    {
+      "id": "entity-a",
+      "label": "Core entity",
+      "category": "entity",
+      "description": "Primary business object",
+      "parentId": "root"
+    },
+    {
+      "id": "entity-b",
+      "label": "Reference data",
+      "category": "entity",
+      "description": "Codes and lookups",
+      "parentId": "root"
+    },
+    {
+      "id": "attr-1",
+      "label": "Key attributes",
+      "category": "attribute",
+      "description": "Identifiers & constraints",
+      "parentId": "entity-a"
+    }
+  ],
+  "edges": [],
+  "metadata": { "sample": true }
+}

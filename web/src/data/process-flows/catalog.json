@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "documents": {
+    "executive": [
+      {
+        "id": "39a28aad-f8d2-426b-bcbd-8c7e8f53ab62",
+        "title": "Uniti_COO_Opticom-2026-04-10-010125",
+        "path": "/process-flows/executive/Uniti_COO_Opticom-2026-04-10-010125.pdf"
+      }
+    ],
+    "finance": [
+      {
+        "id": "248bca69-a408-4d3e-aa3d-afc198a56cdf",
+        "title": "Finance_Workflow_process",
+        "path": "/process-flows/finance/Finance_Workflow_process.pdf"
+      },
+      {
+        "id": "76770f07-7958-401b-99a0-a3c808287bad",
+        "title": "Dynamics_365_-_Finance_Insights_Datasheet",
+        "path": "/process-flows/finance/Dynamics_365_-_Finance_Insights_Datasheet.pdf"
+      }
+    ],
+    "internal-it-systems": [],
+    "product-technology": [
+      {
+        "id": "218bffa4-df94-4d5a-8fa0-5fec34c6303b",
+        "title": "Finance_Workflow_process",
+        "path": "/process-flows/product-technology/Finance_Workflow_process.pdf"
+      },
+      {
+        "id": "269fce92-658a-4156-bb92-e99b07c89878",
+        "title": "Dynamics_365_-_Finance_Insights_Datasheet",
+        "path": "/process-flows/product-technology/Dynamics_365_-_Finance_Insights_Datasheet.pdf"
+      }
+    ],
+    "network-delivery-construction": [],
+    "customer-operations": [],
+    "governance-risk": [],
+    "hr-workforce": [],
+    "retail-delivery": []
+  }
+}

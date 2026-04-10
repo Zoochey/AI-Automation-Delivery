@@ -1,0 +1,2186 @@
+{
+  "nodes": [
+    {
+      "id": "BOARD",
+      "name": "Board of Directors",
+      "title": "Board of Directors",
+      "team": "Executive",
+      "function": "Governance",
+      "region": "Australia",
+      "domain": "Corporate",
+      "impact": "high"
+    },
+    {
+      "id": "CEO",
+      "name": "Kevin Teoh",
+      "title": "Chief Executive Officer",
+      "team": "Executive",
+      "function": "Executive leadership",
+      "region": "Australia",
+      "domain": "Corporate",
+      "impact": "high"
+    },
+    {
+      "id": "COO_OPTI",
+      "name": "Geoffrey Aldridge",
+      "title": "Chief Operating Officer (OptiComm)",
+      "team": "Executive",
+      "function": "Physical network delivery and operations leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "high"
+    },
+    {
+      "id": "CIO",
+      "name": "Brent Dalgleish",
+      "title": "Chief Information Officer",
+      "team": "Business Services - IT, Cyber & Automation",
+      "function": "Internal IT, cyber, automation and business systems",
+      "region": "Australia",
+      "domain": "Internal IT",
+      "impact": "high"
+    },
+    {
+      "id": "CFO",
+      "name": "Padraig Donnelly",
+      "title": "Chief Financial Officer",
+      "team": "Finance",
+      "function": "Financial control, planning and finance operations",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "high"
+    },
+    {
+      "id": "COO_CPAAS",
+      "name": "Jenna Linton",
+      "title": "Chief Operating Officer (CPaaS)",
+      "team": "CPaaS - Operations",
+      "function": "Operational leadership for communications platform services",
+      "region": "Australia",
+      "domain": "Product Operations",
+      "impact": "high"
+    },
+    {
+      "id": "RETAIL",
+      "name": "Scott Clarke",
+      "title": "Group Executive - Retail Service Delivery/Assurance",
+      "team": "Retail",
+      "function": "Retail service delivery and assurance",
+      "region": "Australia",
+      "domain": "Retail Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "CTO",
+      "name": "Andy Tybell",
+      "title": "Chief Technology Officer",
+      "team": "Networks - Systems",
+      "function": "Product technology, networks and systems leadership",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "high"
+    },
+    {
+      "id": "CCO",
+      "name": "Brendan Wilson",
+      "title": "Chief Customer Officer",
+      "team": "Product Strategy & Partnerships - WEI",
+      "function": "Customer operations, product strategy and partnerships",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "high"
+    },
+    {
+      "id": "LEGAL_HEAD",
+      "name": "Cassie Kam",
+      "title": "General Counsel & Company Secretary",
+      "team": "Legal, Risk & Compliance",
+      "function": "Legal, governance, risk and compliance leadership",
+      "region": "Australia",
+      "domain": "Legal & Compliance",
+      "impact": "high"
+    },
+    {
+      "id": "PEOPLE_HEAD",
+      "name": "Kirsty Allison",
+      "title": "Chief People Officer",
+      "team": "People",
+      "function": "People and culture leadership",
+      "region": "Australia",
+      "domain": "People & Culture",
+      "impact": "high"
+    },
+    {
+      "id": "DUANE",
+      "name": "Duane Joyce",
+      "title": "Infrastructure Manager",
+      "team": "IT",
+      "function": "Infrastructure operations management",
+      "region": "Australia",
+      "domain": "Internal IT",
+      "impact": "high"
+    },
+    {
+      "id": "ROB",
+      "name": "Robert Stevens",
+      "title": "DevOps Engineer",
+      "team": "IT",
+      "function": "DevOps and platform support",
+      "region": "Australia",
+      "domain": "Internal IT",
+      "impact": "medium"
+    },
+    {
+      "id": "NATHAN",
+      "name": "Nathan Arnall",
+      "title": "IT System Administrator",
+      "team": "IT",
+      "function": "Systems administration",
+      "region": "Australia",
+      "domain": "Internal IT",
+      "impact": "medium"
+    },
+    {
+      "id": "JAVNEEL",
+      "name": "Javneel Trivedi",
+      "title": "IT System Administrator",
+      "team": "IT",
+      "function": "Systems administration",
+      "region": "Australia",
+      "domain": "Internal IT",
+      "impact": "medium"
+    },
+    {
+      "id": "JANITHA",
+      "name": "Janitha Ranasinghe",
+      "title": "IT Support Analyst",
+      "team": "IT",
+      "function": "IT support",
+      "region": "Australia",
+      "domain": "Internal IT",
+      "impact": "medium"
+    },
+    {
+      "id": "SHAHEER",
+      "name": "Shaheer Ahmed",
+      "title": "Head of Finance Operations",
+      "team": "Finance Ops",
+      "function": "Accounts receivable, payables and collections leadership",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "high"
+    },
+    {
+      "id": "JULIA",
+      "name": "Julia Shuffell",
+      "title": "Group Financial Controller",
+      "team": "Financial Control",
+      "function": "Financial control and accounting leadership",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "high"
+    },
+    {
+      "id": "ANTHONY_W",
+      "name": "Anthony Widjaja",
+      "title": "Head of Financial Planning & Analysis",
+      "team": "FP&A",
+      "function": "Financial planning and analysis leadership",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "high"
+    },
+    {
+      "id": "GEORGE",
+      "name": "George Aston",
+      "title": "Commercial Finance Manager",
+      "team": "Commercial Finance",
+      "function": "Commercial finance support",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "RITIKA",
+      "name": "Ritika Sharma",
+      "title": "Senior Credit & Collections Officer",
+      "team": "Finance Ops",
+      "function": "Credit and collections",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "VANIA",
+      "name": "Vania Molnar",
+      "title": "Accounts Payable Team Lead",
+      "team": "Finance Ops",
+      "function": "Accounts payable leadership",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "MIRZA",
+      "name": "Mirza Baig",
+      "title": "Credit & Collections Officer",
+      "team": "Finance Ops",
+      "function": "Credit and collections",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "low"
+    },
+    {
+      "id": "FARAM",
+      "name": "Faram Kadri",
+      "title": "Accounts Receivable Officer",
+      "team": "Finance Ops",
+      "function": "Accounts receivable",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "low"
+    },
+    {
+      "id": "ANDREW_R",
+      "name": "Andrew Rabel",
+      "title": "Credit & Collections Officer",
+      "team": "Finance Ops",
+      "function": "Credit and collections",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "low"
+    },
+    {
+      "id": "JACKIE",
+      "name": "Jackie Lai",
+      "title": "Accounts Receivable Officer",
+      "team": "Finance Ops",
+      "function": "Accounts receivable",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "low"
+    },
+    {
+      "id": "DANIELA",
+      "name": "Daniela Vial Dos Santos",
+      "title": "Senior Project Accountant",
+      "team": "Financial Control",
+      "function": "Project accounting",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "SCOTT_K",
+      "name": "Scott Kelly",
+      "title": "Payroll Manager",
+      "team": "Financial Control",
+      "function": "Payroll management",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "SERENE",
+      "name": "Serene Lai",
+      "title": "Group Finance Manager",
+      "team": "Financial Control",
+      "function": "General accounting leadership",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "high"
+    },
+    {
+      "id": "LORENZO",
+      "name": "Lorenzo Arrigo",
+      "title": "Project Accountant",
+      "team": "Financial Control",
+      "function": "Project accounting",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "MARILYN",
+      "name": "Marilyn Dela Cruz Anovero",
+      "title": "Accounts Assistant",
+      "team": "Finance",
+      "function": "Accounts support",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "low"
+    },
+    {
+      "id": "JANICE",
+      "name": "Janice Au",
+      "title": "Senior Accountant",
+      "team": "Finance",
+      "function": "Accounting",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "LEODIA",
+      "name": "Leodia Cao",
+      "title": "Accountant",
+      "team": "Finance",
+      "function": "Accounting",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "low"
+    },
+    {
+      "id": "JESSIE",
+      "name": "Jessie Bermundo",
+      "title": "Senior Finance Business Partner",
+      "team": "FP&A",
+      "function": "Finance business partnering",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "SHAYNE",
+      "name": "Shayne Albert",
+      "title": "Senior Finance Business Partner",
+      "team": "FP&A",
+      "function": "Finance business partnering",
+      "region": "Australia",
+      "domain": "Finance",
+      "impact": "medium"
+    },
+    {
+      "id": "CRAIG_P",
+      "name": "Craig Poole",
+      "title": "Head of Software Development and Systems",
+      "team": "Networks - Software",
+      "function": "Software engineering leadership",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "high"
+    },
+    {
+      "id": "KATHERINE",
+      "name": "Katherine Macumber",
+      "title": "Technical Writer",
+      "team": "Networks - Software",
+      "function": "Technical documentation",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "JARRYD",
+      "name": "Jarryd Sullivan",
+      "title": "Head of Networks",
+      "team": "Networks - Engineering",
+      "function": "Network engineering leadership",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "high"
+    },
+    {
+      "id": "JOSEPH",
+      "name": "Joseph Failla",
+      "title": "Product & Solutions Manager",
+      "team": "Networks - Product Strategy",
+      "function": "Product and solutions management",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "high"
+    },
+    {
+      "id": "YEFA",
+      "name": "Yefa Sutanto",
+      "title": "Software Engineer",
+      "team": "Networks - Software",
+      "function": "Software engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "LUKE_D",
+      "name": "Luke Devuono",
+      "title": "Software Developer",
+      "team": "Networks - Software",
+      "function": "Software development",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "TIMOTHY",
+      "name": "Timothy Evetts",
+      "title": "Senior Software Engineer",
+      "team": "Networks - Software",
+      "function": "Software engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "EDDY",
+      "name": "Eddy Ella",
+      "title": "Senior Software Support Engineer",
+      "team": "Networks - Software",
+      "function": "Software support",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "DAVID_G",
+      "name": "David Groden",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "MAIZ",
+      "name": "Maiz Ahmed Khan",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "SALLY",
+      "name": "Sally Shirazi",
+      "title": "Associate Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "low"
+    },
+    {
+      "id": "NOEL_D",
+      "name": "Noel Dsouza",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "ALEX_B",
+      "name": "Alex Bevilacqua",
+      "title": "Junior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "low"
+    },
+    {
+      "id": "HADRIAN",
+      "name": "Hadrian Aloros",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "CHRIS_K",
+      "name": "Chris Kawchuk",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "IRTAZ",
+      "name": "Irtaz Adil Yousfani",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "JAMES_B",
+      "name": "James Bristow",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "STUART",
+      "name": "Stuart Pearson",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "DANIEL_K",
+      "name": "Daniel Kourtabie",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "TIM_H",
+      "name": "Tim Hartnell",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "DENNIS",
+      "name": "Dennis Jasch",
+      "title": "Senior Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "medium"
+    },
+    {
+      "id": "SERENA",
+      "name": "Serena Green",
+      "title": "Associate Network Engineer",
+      "team": "Networks - Engineering",
+      "function": "Network engineering",
+      "region": "Australia",
+      "domain": "Product & Technology",
+      "impact": "low"
+    },
+    {
+      "id": "ANTHONY_P",
+      "name": "Anthony Paraschos",
+      "title": "Community Enablement Manager",
+      "team": "Networks - RSP Partnerships",
+      "function": "Community enablement and partnerships",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "KATE_B",
+      "name": "Kate Bishop",
+      "title": "Marketing Lead",
+      "team": "Marketing",
+      "function": "Marketing leadership",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "LUKE_M",
+      "name": "Luke Martini",
+      "title": "Customer Operations Manager",
+      "team": "Networks - Customer Operations",
+      "function": "Customer operations leadership",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "high"
+    },
+    {
+      "id": "JOHN_H",
+      "name": "John Hicks",
+      "title": "RSP Manager",
+      "team": "Networks - RSP Partnerships",
+      "function": "RSP relationship management",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "GAVIN",
+      "name": "Gavin Malan",
+      "title": "Community Enablement Manager",
+      "team": "Networks - RSP Partnerships",
+      "function": "Community enablement and partnerships",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "RAHUL",
+      "name": "Rahul Maharjan",
+      "title": "Community Connect Team Lead",
+      "team": "Networks - Customer Operations",
+      "function": "Community connect leadership",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "ROBERT_K",
+      "name": "Robert Kelleher",
+      "title": "Commissioning Team Lead",
+      "team": "Networks - Customer Operations",
+      "function": "Commissioning leadership",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "MAYAN",
+      "name": "Mayan Bacalo Villamarzo",
+      "title": "Customer Appointments Team Lead",
+      "team": "Networks - Customer Operations",
+      "function": "Customer appointments leadership",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "EUJIN",
+      "name": "Eu-Jin Gan",
+      "title": "Network Operations Team Lead",
+      "team": "Networks Operation Centre",
+      "function": "Australian network operations leadership",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "high"
+    },
+    {
+      "id": "TOMAS",
+      "name": "Tomas Fitzgerald",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "CHRISTOPHE",
+      "name": "Christophe Do",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "KARTHIK",
+      "name": "Karthikka Sivarasa",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "SAEED",
+      "name": "Saeed Chehrazi",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "GAYLORD",
+      "name": "Gaylord Gomez",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "KEITH",
+      "name": "Keith Brookes",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "KRUNAL",
+      "name": "Krunal Patel",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "ZAHRA",
+      "name": "Zahra Ejnollahi",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "TOMBARI",
+      "name": "Tombari Biranen",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "RAZIEH",
+      "name": "Razieh Abdollahi",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "EMILIA",
+      "name": "Emilia Rossouw",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "EARL",
+      "name": "Earl Damasco",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "ABISHEK",
+      "name": "Abishek Gautam",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "HAMZA",
+      "name": "Hamza Abid",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "ANKUR",
+      "name": "Ankur Sharma",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "DIMITRI",
+      "name": "Dimitri Stamatiou",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "HARUN",
+      "name": "Harun Roshid",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "SALMAN",
+      "name": "Salman Tariq",
+      "title": "Network Operations Engineer",
+      "team": "Networks Operation Centre",
+      "function": "Network operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "SOPHIE",
+      "name": "Sophie Callaghan",
+      "title": "Community Connect Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Community connect operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "KYLE",
+      "name": "Kyle Matthew Rivera Sison",
+      "title": "Community Connect Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Community connect operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MARIEL_H",
+      "name": "Mariel Hernandez Sandoval",
+      "title": "Community Connect Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Community connect operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MARIA",
+      "name": "Maria Irene B. Quinto",
+      "title": "Community Connect Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Community connect operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "NOEL_L",
+      "name": "Noel Livado",
+      "title": "Community Connect Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Community connect operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MOHAMMED",
+      "name": "Mohammed Hyder",
+      "title": "Commissioning Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Commissioning operations",
+      "region": "Australia",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "GLAZE",
+      "name": "Glaze Lendle Lahom",
+      "title": "Commissioning Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Commissioning operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MARION",
+      "name": "Marion Charmagne Quinto",
+      "title": "Commissioning Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Commissioning operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "RICH",
+      "name": "Rich Rivadelo",
+      "title": "Commissioning Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Commissioning operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "JAZZ",
+      "name": "Jazz Laureano",
+      "title": "Commissioning Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Commissioning operations",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "KHRYSTYL",
+      "name": "Khrystyll Arriola Itaas",
+      "title": "Customer Appointments Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Customer appointments",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "ANGELO",
+      "name": "Angelito Astrera Zarraga",
+      "title": "Customer Appointments Specialist",
+      "team": "Networks - Customer Operations",
+      "function": "Customer appointments",
+      "region": "Philippines",
+      "domain": "Customer Operations",
+      "impact": "low"
+    },
+    {
+      "id": "KEVIN_B",
+      "name": "Kevin Bush",
+      "title": "Head of Health & Safety",
+      "team": "Legal, Risk & Compliance",
+      "function": "Health and safety leadership",
+      "region": "Australia",
+      "domain": "Legal & Compliance",
+      "impact": "medium"
+    },
+    {
+      "id": "MEI",
+      "name": "Mei Loke",
+      "title": "Legal - Senior Counsel",
+      "team": "Legal, Risk & Compliance",
+      "function": "Senior legal counsel",
+      "region": "Australia",
+      "domain": "Legal & Compliance",
+      "impact": "medium"
+    },
+    {
+      "id": "RYAN",
+      "name": "Ryan Simmons",
+      "title": "Head of Audit, Risk & Compliance",
+      "team": "Legal, Risk & Compliance",
+      "function": "Audit, risk and compliance leadership",
+      "region": "Australia",
+      "domain": "Legal & Compliance",
+      "impact": "high"
+    },
+    {
+      "id": "KIRA",
+      "name": "Kira Kirvan",
+      "title": "WHSE Officer",
+      "team": "Legal, Risk & Compliance",
+      "function": "Work health and safety",
+      "region": "Australia",
+      "domain": "Legal & Compliance",
+      "impact": "low"
+    },
+    {
+      "id": "CHRISTINE",
+      "name": "Christine Bulos",
+      "title": "Corporate Counsel",
+      "team": "Legal, Risk & Compliance",
+      "function": "Legal counsel",
+      "region": "Australia",
+      "domain": "Legal & Compliance",
+      "impact": "low"
+    },
+    {
+      "id": "LUCY",
+      "name": "Lucy Lucas",
+      "title": "Head of People",
+      "team": "People",
+      "function": "People operations leadership",
+      "region": "Australia",
+      "domain": "People & Culture",
+      "impact": "high"
+    },
+    {
+      "id": "CLAIRE",
+      "name": "Claire Caballes",
+      "title": "Business Services Administrator",
+      "team": "Admin",
+      "function": "Administration support",
+      "region": "Philippines",
+      "domain": "People & Culture",
+      "impact": "low"
+    },
+    {
+      "id": "DEBRA",
+      "name": "Debra Warne",
+      "title": "People & Talent Coordinator",
+      "team": "People",
+      "function": "Talent coordination",
+      "region": "Australia",
+      "domain": "People & Culture",
+      "impact": "medium"
+    },
+    {
+      "id": "SINEAD",
+      "name": "Sinead Hayes",
+      "title": "People Business Partner",
+      "team": "People",
+      "function": "HR business partnering",
+      "region": "Australia",
+      "domain": "People & Culture",
+      "impact": "medium"
+    },
+    {
+      "id": "JONAH",
+      "name": "Jonah Alexander",
+      "title": "Office Administrator",
+      "team": "People",
+      "function": "Office administration",
+      "region": "Australia",
+      "domain": "People & Culture",
+      "impact": "low"
+    },
+    {
+      "id": "MARK",
+      "name": "Mark Lees",
+      "title": "Head of Delivery",
+      "team": "Construction - NSW",
+      "function": "Physical network delivery leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "high"
+    },
+    {
+      "id": "JASON",
+      "name": "Jason Clarke",
+      "title": "Head of Greenfield Sales",
+      "team": "Infrastructure - Go to Market",
+      "function": "Sales leadership for greenfield/infrastructure",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "ANTHONY_C",
+      "name": "Anthony Caruana",
+      "title": "Head of Commercial",
+      "team": "WEI Administration",
+      "function": "Commercial and administration leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "DOMINIQUE",
+      "name": "Dominique Taku",
+      "title": "Field Services Manager",
+      "team": "Networks - Customer Operations / WEI",
+      "function": "Field services management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "NENA",
+      "name": "Nena Velazquez",
+      "title": "Head of Design",
+      "team": "Networks - Design",
+      "function": "Network design leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "high"
+    },
+    {
+      "id": "BANDU",
+      "name": "Bandu Bandara",
+      "title": "Fibre Splicing / Field Operations Manager",
+      "team": "Construction - Field Operations",
+      "function": "Field operations and fibre splicing leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "high"
+    },
+    {
+      "id": "MARISA",
+      "name": "Marisa Pelupsessy",
+      "title": "Inventory Coordinator",
+      "team": "WEI Administration",
+      "function": "Inventory coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "HARITHA",
+      "name": "Haritha Sidella",
+      "title": "Field Services Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Field services coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "CECILIA",
+      "name": "Cecilia Hallen",
+      "title": "Field Services Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Field services coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "KEVIN_S",
+      "name": "Kevin Sproats",
+      "title": "Field Services Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Field services coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "SEREN_V",
+      "name": "Seren Var",
+      "title": "Field Services Coordinator",
+      "team": "Networks - Customer Operations",
+      "function": "Field services coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "ANASTASIOS",
+      "name": "Anastasios Basoglou",
+      "title": "Senior Network Designer",
+      "team": "Networks - Design",
+      "function": "Network design",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "MIG",
+      "name": "Mig Tortona",
+      "title": "Network Design Team Lead",
+      "team": "Networks - Design",
+      "function": "Network design leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "STEPHEN",
+      "name": "Stephen He",
+      "title": "Network Designer",
+      "team": "Networks - Design",
+      "function": "Network design",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "LORITA",
+      "name": "Lorita Seifeddine",
+      "title": "Network Design SIP/BYDA Coordinator",
+      "team": "Networks - Design",
+      "function": "Design coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "RAYMART",
+      "name": "Raymart Supan",
+      "title": "Network Designer",
+      "team": "Networks - Design",
+      "function": "Network design",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "ROSMI",
+      "name": "Rosmi Raju",
+      "title": "Network Designer",
+      "team": "Networks - Design",
+      "function": "Network design",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MATTHEW_H",
+      "name": "Matthew Htet",
+      "title": "Network Designer",
+      "team": "Networks - Design",
+      "function": "Network design",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "EVA",
+      "name": "Eva Klusacek",
+      "title": "Network Designer",
+      "team": "Networks - Design",
+      "function": "Network design",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "CELESTINO",
+      "name": "Celestino Asenjo",
+      "title": "Field Engineer",
+      "team": "Construction - Field Operations",
+      "function": "Field engineering",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "SANJAY",
+      "name": "Sanjay Singh",
+      "title": "Field Technician - VIC",
+      "team": "Construction - Field Operations",
+      "function": "Field operations",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "AMIT",
+      "name": "Amit Shah",
+      "title": "Senior Fibre Splicer",
+      "team": "Construction - VIC",
+      "function": "Fibre splicing",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "SCOTT_CURD",
+      "name": "Scott Curd",
+      "title": "Junior Fibre Splicer",
+      "team": "Construction - VIC",
+      "function": "Fibre splicing",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "KEVIN_D",
+      "name": "Kevin Dats",
+      "title": "Junior Fibre Splicer",
+      "team": "Construction - WEI",
+      "function": "Fibre splicing",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "JARROD",
+      "name": "Jarrod Cowman",
+      "title": "Field Technician - VIC",
+      "team": "Construction - VIC",
+      "function": "Field operations",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "CHRISTOS",
+      "name": "Christos Ouranios",
+      "title": "Warehouse Supervisor",
+      "team": "Construction - VIC",
+      "function": "Warehouse operations",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "IRFAN",
+      "name": "Irfan Mohammed",
+      "title": "Warehouse Manager",
+      "team": "Construction - NSW",
+      "function": "Warehouse operations",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "BRIAN",
+      "name": "Brian Whitfield",
+      "title": "Workshop Technician / Warehouse Assistant",
+      "team": "Construction - VIC",
+      "function": "Workshop and warehouse support",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "ANDREW_G",
+      "name": "Andrew Garrow",
+      "title": "Head of Construction",
+      "team": "Construction - QLD",
+      "function": "Construction leadership",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "high"
+    },
+    {
+      "id": "TIM_Z",
+      "name": "Tim Zhao",
+      "title": "Senior PM / PMO Lead",
+      "team": "Construction - NSW",
+      "function": "Project management office",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "BRETT",
+      "name": "Brett Green",
+      "title": "Construction Manager - VIC/SA",
+      "team": "Construction - VIC/SA",
+      "function": "Construction management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "MATTHEW_K",
+      "name": "Matthew Kerr",
+      "title": "Headend Engineer",
+      "team": "Construction - VIC",
+      "function": "Engineering",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "JAMES_K",
+      "name": "James Kellett",
+      "title": "Delivery Manager - SA",
+      "team": "Construction - SA",
+      "function": "Delivery management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "OLIMPIO",
+      "name": "Olimpio Spada",
+      "title": "Construction Manager - NSW/ACT",
+      "team": "Construction - NSW/ACT",
+      "function": "Construction management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "BARRY",
+      "name": "Barry Magee",
+      "title": "Construction Manager - QLD",
+      "team": "Construction - QLD",
+      "function": "Construction management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "MARCUS",
+      "name": "Marcus Devitt",
+      "title": "Construction Manager - WA/NT",
+      "team": "Construction - WA/NT",
+      "function": "Construction management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "JENNY",
+      "name": "Jenny Gavey",
+      "title": "Project Coordinator - NSW",
+      "team": "Construction - NSW",
+      "function": "Project coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "SUSANNAH",
+      "name": "Susannah Blake",
+      "title": "Project Coordinator - QLD",
+      "team": "Construction - QLD",
+      "function": "Project coordination",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "ROBERT_C",
+      "name": "Robert Carrick",
+      "title": "Regional Sales Manager - NSW/ACT",
+      "team": "Infrastructure - Go to Market",
+      "function": "Regional sales",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "KATE_KEOWN",
+      "name": "Kate Keown",
+      "title": "Queensland Sales",
+      "team": "Infrastructure - Go to Market",
+      "function": "Regional sales",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "GLENN",
+      "name": "Glenn Rushton",
+      "title": "Regional Sales Manager - VIC/SA",
+      "team": "Infrastructure - Go to Market",
+      "function": "Regional sales",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "KEVIN_C",
+      "name": "Kevin Chambers",
+      "title": "Regional Sales Manager - WA/NT",
+      "team": "Infrastructure - Go to Market",
+      "function": "Regional sales",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "ELEANOR",
+      "name": "Eleanor Jarvis",
+      "title": "Key Account Director",
+      "team": "Infrastructure - Go to Market",
+      "function": "Key account management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "MITCHELL",
+      "name": "Mitchell Eyles",
+      "title": "Solutions Manager",
+      "team": "Infrastructure - Go to Market",
+      "function": "Solutions management",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    },
+    {
+      "id": "JAMES_S",
+      "name": "James Schnebele",
+      "title": "Business Development Manager",
+      "team": "Infrastructure - Go to Market",
+      "function": "Business development",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MARK_K",
+      "name": "Mark Karpinski",
+      "title": "Business Development Manager",
+      "team": "Infrastructure - Go to Market",
+      "function": "Business development",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "OLIVIA",
+      "name": "Olivia Milane",
+      "title": "Business Development & Key Account Manager",
+      "team": "Infrastructure - Go to Market",
+      "function": "Business development and key accounts",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "BEN",
+      "name": "Ben Halliwell",
+      "title": "Business Development Manager",
+      "team": "Infrastructure - Go to Market",
+      "function": "Business development",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "MARIEL_D",
+      "name": "Mariel Del Mundo",
+      "title": "Sales Support Coordinator",
+      "team": "Sales Operations",
+      "function": "Sales support",
+      "region": "Philippines",
+      "domain": "Infrastructure Operations",
+      "impact": "low"
+    },
+    {
+      "id": "ANDREW_GILL",
+      "name": "Andrew Gillanders",
+      "title": "Sales Operations Manager",
+      "team": "Sales Operations",
+      "function": "Sales operations",
+      "region": "Australia",
+      "domain": "Infrastructure Operations",
+      "impact": "medium"
+    }
+  ],
+  "edges": [
+    {
+      "from": "BOARD",
+      "to": "CEO"
+    },
+    {
+      "from": "CEO",
+      "to": "COO_OPTI"
+    },
+    {
+      "from": "CEO",
+      "to": "CIO"
+    },
+    {
+      "from": "CEO",
+      "to": "CFO"
+    },
+    {
+      "from": "CEO",
+      "to": "COO_CPAAS"
+    },
+    {
+      "from": "CEO",
+      "to": "RETAIL"
+    },
+    {
+      "from": "CEO",
+      "to": "CTO"
+    },
+    {
+      "from": "CEO",
+      "to": "CCO"
+    },
+    {
+      "from": "CEO",
+      "to": "LEGAL_HEAD"
+    },
+    {
+      "from": "CEO",
+      "to": "PEOPLE_HEAD"
+    },
+    {
+      "from": "CIO",
+      "to": "DUANE"
+    },
+    {
+      "from": "CIO",
+      "to": "ROB"
+    },
+    {
+      "from": "DUANE",
+      "to": "NATHAN"
+    },
+    {
+      "from": "DUANE",
+      "to": "JAVNEEL"
+    },
+    {
+      "from": "DUANE",
+      "to": "JANITHA"
+    },
+    {
+      "from": "CFO",
+      "to": "SHAHEER"
+    },
+    {
+      "from": "CFO",
+      "to": "JULIA"
+    },
+    {
+      "from": "CFO",
+      "to": "ANTHONY_W"
+    },
+    {
+      "from": "CFO",
+      "to": "GEORGE"
+    },
+    {
+      "from": "SHAHEER",
+      "to": "RITIKA"
+    },
+    {
+      "from": "SHAHEER",
+      "to": "VANIA"
+    },
+    {
+      "from": "SHAHEER",
+      "to": "MIRZA"
+    },
+    {
+      "from": "SHAHEER",
+      "to": "FARAM"
+    },
+    {
+      "from": "SHAHEER",
+      "to": "ANDREW_R"
+    },
+    {
+      "from": "SHAHEER",
+      "to": "JACKIE"
+    },
+    {
+      "from": "JULIA",
+      "to": "DANIELA"
+    },
+    {
+      "from": "JULIA",
+      "to": "SCOTT_K"
+    },
+    {
+      "from": "JULIA",
+      "to": "SERENE"
+    },
+    {
+      "from": "JULIA",
+      "to": "LORENZO"
+    },
+    {
+      "from": "SERENE",
+      "to": "MARILYN"
+    },
+    {
+      "from": "SERENE",
+      "to": "JANICE"
+    },
+    {
+      "from": "SERENE",
+      "to": "LEODIA"
+    },
+    {
+      "from": "ANTHONY_W",
+      "to": "JESSIE"
+    },
+    {
+      "from": "ANTHONY_W",
+      "to": "SHAYNE"
+    },
+    {
+      "from": "CTO",
+      "to": "CRAIG_P"
+    },
+    {
+      "from": "CTO",
+      "to": "KATHERINE"
+    },
+    {
+      "from": "CTO",
+      "to": "JARRYD"
+    },
+    {
+      "from": "CTO",
+      "to": "JOSEPH"
+    },
+    {
+      "from": "CRAIG_P",
+      "to": "YEFA"
+    },
+    {
+      "from": "CRAIG_P",
+      "to": "LUKE_D"
+    },
+    {
+      "from": "CRAIG_P",
+      "to": "TIMOTHY"
+    },
+    {
+      "from": "CRAIG_P",
+      "to": "EDDY"
+    },
+    {
+      "from": "JARRYD",
+      "to": "DAVID_G"
+    },
+    {
+      "from": "JARRYD",
+      "to": "MAIZ"
+    },
+    {
+      "from": "JARRYD",
+      "to": "SALLY"
+    },
+    {
+      "from": "JARRYD",
+      "to": "NOEL_D"
+    },
+    {
+      "from": "JARRYD",
+      "to": "ALEX_B"
+    },
+    {
+      "from": "JARRYD",
+      "to": "HADRIAN"
+    },
+    {
+      "from": "JARRYD",
+      "to": "CHRIS_K"
+    },
+    {
+      "from": "JARRYD",
+      "to": "IRTAZ"
+    },
+    {
+      "from": "JARRYD",
+      "to": "JAMES_B"
+    },
+    {
+      "from": "JARRYD",
+      "to": "STUART"
+    },
+    {
+      "from": "JARRYD",
+      "to": "DANIEL_K"
+    },
+    {
+      "from": "JARRYD",
+      "to": "TIM_H"
+    },
+    {
+      "from": "JARRYD",
+      "to": "DENNIS"
+    },
+    {
+      "from": "JARRYD",
+      "to": "SERENA"
+    },
+    {
+      "from": "CCO",
+      "to": "ANTHONY_P"
+    },
+    {
+      "from": "CCO",
+      "to": "KATE_B"
+    },
+    {
+      "from": "CCO",
+      "to": "LUKE_M"
+    },
+    {
+      "from": "CCO",
+      "to": "JOHN_H"
+    },
+    {
+      "from": "CCO",
+      "to": "GAVIN"
+    },
+    {
+      "from": "LUKE_M",
+      "to": "RAHUL"
+    },
+    {
+      "from": "LUKE_M",
+      "to": "ROBERT_K"
+    },
+    {
+      "from": "LUKE_M",
+      "to": "MAYAN"
+    },
+    {
+      "from": "LUKE_M",
+      "to": "EUJIN"
+    },
+    {
+      "from": "EUJIN",
+      "to": "TOMAS"
+    },
+    {
+      "from": "EUJIN",
+      "to": "CHRISTOPHE"
+    },
+    {
+      "from": "EUJIN",
+      "to": "KARTHIK"
+    },
+    {
+      "from": "EUJIN",
+      "to": "SAEED"
+    },
+    {
+      "from": "EUJIN",
+      "to": "GAYLORD"
+    },
+    {
+      "from": "EUJIN",
+      "to": "KEITH"
+    },
+    {
+      "from": "EUJIN",
+      "to": "KRUNAL"
+    },
+    {
+      "from": "EUJIN",
+      "to": "ZAHRA"
+    },
+    {
+      "from": "EUJIN",
+      "to": "TOMBARI"
+    },
+    {
+      "from": "EUJIN",
+      "to": "RAZIEH"
+    },
+    {
+      "from": "EUJIN",
+      "to": "EMILIA"
+    },
+    {
+      "from": "EUJIN",
+      "to": "EARL"
+    },
+    {
+      "from": "EUJIN",
+      "to": "ABISHEK"
+    },
+    {
+      "from": "EUJIN",
+      "to": "HAMZA"
+    },
+    {
+      "from": "EUJIN",
+      "to": "ANKUR"
+    },
+    {
+      "from": "EUJIN",
+      "to": "DIMITRI"
+    },
+    {
+      "from": "EUJIN",
+      "to": "HARUN"
+    },
+    {
+      "from": "EUJIN",
+      "to": "SALMAN"
+    },
+    {
+      "from": "RAHUL",
+      "to": "SOPHIE"
+    },
+    {
+      "from": "RAHUL",
+      "to": "KYLE"
+    },
+    {
+      "from": "RAHUL",
+      "to": "MARIEL_H"
+    },
+    {
+      "from": "RAHUL",
+      "to": "MARIA"
+    },
+    {
+      "from": "RAHUL",
+      "to": "NOEL_L"
+    },
+    {
+      "from": "ROBERT_K",
+      "to": "MOHAMMED"
+    },
+    {
+      "from": "ROBERT_K",
+      "to": "GLAZE"
+    },
+    {
+      "from": "ROBERT_K",
+      "to": "MARION"
+    },
+    {
+      "from": "ROBERT_K",
+      "to": "RICH"
+    },
+    {
+      "from": "ROBERT_K",
+      "to": "JAZZ"
+    },
+    {
+      "from": "MAYAN",
+      "to": "KHRYSTYL"
+    },
+    {
+      "from": "MAYAN",
+      "to": "ANGELO"
+    },
+    {
+      "from": "LEGAL_HEAD",
+      "to": "KEVIN_B"
+    },
+    {
+      "from": "LEGAL_HEAD",
+      "to": "MEI"
+    },
+    {
+      "from": "LEGAL_HEAD",
+      "to": "RYAN"
+    },
+    {
+      "from": "KEVIN_B",
+      "to": "KIRA"
+    },
+    {
+      "from": "MEI",
+      "to": "CHRISTINE"
+    },
+    {
+      "from": "PEOPLE_HEAD",
+      "to": "LUCY"
+    },
+    {
+      "from": "LUCY",
+      "to": "CLAIRE"
+    },
+    {
+      "from": "LUCY",
+      "to": "DEBRA"
+    },
+    {
+      "from": "LUCY",
+      "to": "SINEAD"
+    },
+    {
+      "from": "LUCY",
+      "to": "JONAH"
+    },
+    {
+      "from": "COO_OPTI",
+      "to": "MARK"
+    },
+    {
+      "from": "COO_OPTI",
+      "to": "JASON"
+    },
+    {
+      "from": "COO_OPTI",
+      "to": "ANTHONY_C"
+    },
+    {
+      "from": "MARK",
+      "to": "DOMINIQUE"
+    },
+    {
+      "from": "MARK",
+      "to": "NENA"
+    },
+    {
+      "from": "MARK",
+      "to": "BANDU"
+    },
+    {
+      "from": "MARK",
+      "to": "MARISA"
+    },
+    {
+      "from": "DOMINIQUE",
+      "to": "HARITHA"
+    },
+    {
+      "from": "DOMINIQUE",
+      "to": "CECILIA"
+    },
+    {
+      "from": "DOMINIQUE",
+      "to": "KEVIN_S"
+    },
+    {
+      "from": "DOMINIQUE",
+      "to": "SEREN_V"
+    },
+    {
+      "from": "NENA",
+      "to": "ANASTASIOS"
+    },
+    {
+      "from": "NENA",
+      "to": "MIG"
+    },
+    {
+      "from": "MIG",
+      "to": "STEPHEN"
+    },
+    {
+      "from": "MIG",
+      "to": "LORITA"
+    },
+    {
+      "from": "MIG",
+      "to": "RAYMART"
+    },
+    {
+      "from": "MIG",
+      "to": "ROSMI"
+    },
+    {
+      "from": "MIG",
+      "to": "MATTHEW_H"
+    },
+    {
+      "from": "MIG",
+      "to": "EVA"
+    },
+    {
+      "from": "BANDU",
+      "to": "CELESTINO"
+    },
+    {
+      "from": "BANDU",
+      "to": "SANJAY"
+    },
+    {
+      "from": "BANDU",
+      "to": "AMIT"
+    },
+    {
+      "from": "BANDU",
+      "to": "SCOTT_CURD"
+    },
+    {
+      "from": "BANDU",
+      "to": "KEVIN_D"
+    },
+    {
+      "from": "BANDU",
+      "to": "JARROD"
+    },
+    {
+      "from": "MARISA",
+      "to": "CHRISTOS"
+    },
+    {
+      "from": "MARISA",
+      "to": "IRFAN"
+    },
+    {
+      "from": "CHRISTOS",
+      "to": "BRIAN"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "TIM_Z"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "BRETT"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "MATTHEW_K"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "JAMES_K"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "OLIMPIO"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "BARRY"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "MARCUS"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "JENNY"
+    },
+    {
+      "from": "ANDREW_G",
+      "to": "SUSANNAH"
+    },
+    {
+      "from": "MARK",
+      "to": "ANDREW_G"
+    },
+    {
+      "from": "JASON",
+      "to": "ROBERT_C"
+    },
+    {
+      "from": "JASON",
+      "to": "KATE_KEOWN"
+    },
+    {
+      "from": "JASON",
+      "to": "GLENN"
+    },
+    {
+      "from": "JASON",
+      "to": "KEVIN_C"
+    },
+    {
+      "from": "JASON",
+      "to": "ELEANOR"
+    },
+    {
+      "from": "JASON",
+      "to": "MITCHELL"
+    },
+    {
+      "from": "ROBERT_C",
+      "to": "JAMES_S"
+    },
+    {
+      "from": "ROBERT_C",
+      "to": "MARK_K"
+    },
+    {
+      "from": "GLENN",
+      "to": "OLIVIA"
+    },
+    {
+      "from": "GLENN",
+      "to": "BEN"
+    },
+    {
+      "from": "ANTHONY_C",
+      "to": "ANDREW_GILL"
+    },
+    {
+      "from": "MITCHELL",
+      "to": "MARIEL_D"
+    }
+  ]
+}
